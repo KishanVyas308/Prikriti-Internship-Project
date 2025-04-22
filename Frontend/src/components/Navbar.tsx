@@ -20,11 +20,11 @@ const Navbar = () => {
     {
       name: "About Us",
       path: "/about",
-      // submenu: [
-      //   { name: "Company Profile", path: "/about/profile" },
-      //   { name: "Our Team", path: "/about/team" },
-      //   { name: "Our Vision", path: "/about/vision" },
-      // ],
+        // submenu: [
+        //   { name: "Company Profile", path: "/about/profile" },
+        //   { name: "Our Team", path: "/about/team" },
+        //   { name: "Our Vision", path: "/about/vision" },
+        // ],
     },
     {
       name: "Services",
