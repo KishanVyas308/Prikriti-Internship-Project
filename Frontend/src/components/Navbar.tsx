@@ -16,10 +16,10 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/temp/" },
     {
       name: "About Us",
-      path: "/about",
+      path: "/temp/about",
         // submenu: [
         //   { name: "Company Profile", path: "/about/profile" },
         //   { name: "Our Team", path: "/about/team" },
@@ -28,16 +28,16 @@ const Navbar = () => {
     },
     {
       name: "Services",
-      path: "/services",
+      path: "/temp/services",
       // submenu: [
       //   { name: "Construction", path: "/services/construction" },
       //   { name: "Project Management", path: "/services/project-management" },
       //   { name: "Design & Planning", path: "/services/design" },
       // ],
     },
-    { name: "Projects", path: "/projects" },
-    { name: "Careers", path: "/careers" },
-    { name: "Contact", path: "/contact" },
+    { name: "Projects", path: "/temp/projects" },
+    { name: "Careers", path: "/temp/careers" },
+    { name: "Contact", path: "/temp/contact" },
   ];
 
   return (
