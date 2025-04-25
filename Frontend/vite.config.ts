@@ -17,6 +17,7 @@ export default defineConfig({
   },
   server: {
     port: 5174, // Set the development server to run on port 5000
+    allowedHosts: ['test.prikriti.co.in'],
   },
   resolve: {
     alias: {
