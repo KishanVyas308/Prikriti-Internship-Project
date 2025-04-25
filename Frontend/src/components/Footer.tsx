@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,15 +8,14 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="mb-4 text-2xl font-bold">
-              <span className="text-cbm-lightblue">CBM</span> Group
+              <span className="text-cbm-lightblue">Prikriti</span>
             </h3>
             <p className="mb-4 text-white/70">
-              Excellence in construction and project management since 1995.
+              Rooted in Insight. Growing Global.
             </p>
             <address className="not-italic text-white/70">
-              <p>123 Construction Avenue</p>
-              <p>Building Heights, Suite 456</p>
-              <p>Mumbai, India 400001</p>
+              <p>905-906-907, A-Wing, 9th Floor, RK Iconic, Sheetal Park</p>
+              <p>Rajkot, Gujarat 360006</p>
             </address>
           </div>
 
@@ -63,33 +61,23 @@ const Footer = () => {
             <h4 className="mb-4 text-lg font-semibold">Our Services</h4>
             <ul className="space-y-2 text-white/70">
               <li>
-                <Link to="/services/construction" className="hover:text-cbm-lightblue">
-                  Construction
+                <Link to="/services/foreign-trade" className="hover:text-cbm-lightblue">
+                  Foreign Trade & Export Promotion
                 </Link>
               </li>
               <li>
-                <Link to="/services/project-management" className="hover:text-cbm-lightblue">
-                  Project Management
+                <Link to="/services/indirect-taxation" className="hover:text-cbm-lightblue">
+                  Indirect Taxation & Regulatory Compliance
                 </Link>
               </li>
               <li>
-                <Link to="/services/commercial" className="hover:text-cbm-lightblue">
-                  Commercial Buildings
+                <Link to="/services/legal" className="hover:text-cbm-lightblue">
+                  Legal & Representation Services
                 </Link>
               </li>
               <li>
-                <Link to="/services/residential" className="hover:text-cbm-lightblue">
-                  Residential Developments
-                </Link>
-              </li>
-              <li>
-                <Link to="/services/industrial" className="hover:text-cbm-lightblue">
-                  Industrial Facilities
-                </Link>
-              </li>
-              <li>
-                <Link to="/services/design" className="hover:text-cbm-lightblue">
-                  Design & Planning
+                <Link to="/services/strategic-growth" className="hover:text-cbm-lightblue">
+                  Strategic Growth Advisory
                 </Link>
               </li>
             </ul>
@@ -105,8 +93,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <span className="mr-2">✉️</span>
-                <a href="mailto:info@cbmgroup.in" className="hover:text-cbm-lightblue">
-                  info@cbmgroup.in
+                <a href="mailto:info@prikriti.in" className="hover:text-cbm-lightblue">
+                  info@prikriti.in
                 </a>
               </li>
               <li className="flex items-start">
@@ -125,7 +113,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center justify-between space-y-4 text-center sm:flex-row sm:space-y-0 sm:text-left">
           <p className="text-sm text-white/70">
-            &copy; {new Date().getFullYear()} CBM Group. All rights reserved.
+            &copy; {new Date().getFullYear()} Prikriti. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-white/70 hover:text-white">

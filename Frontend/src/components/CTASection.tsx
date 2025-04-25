@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const CTASection = () => {
@@ -7,10 +6,10 @@ const CTASection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-between gap-8 text-center lg:flex-row lg:text-left">
           <div className="lg:w-2/3">
-            <h2 className="mb-4 text-3xl font-bold">Ready to Start Your Project?</h2>
+            <h2 className="mb-4 text-3xl font-bold">Ready to Grow Your Business?</h2>
             <p className="text-lg text-white/90">
-              Partner with CBM Group for exceptional construction and project management services. 
-              Contact us today to discuss your project requirements and discover how we can bring your vision to life.
+              Partner with Prikriti for tailored guidance in global trade, regulatory compliance, and strategic growth. 
+              Contact us today to explore how we can help your business thrive and expand globally.
             </p>
           </div>
           <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">

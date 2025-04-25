@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 const ContactSection = () => {
@@ -57,13 +56,22 @@ const ContactSection = () => {
                 <div className="flex items-start">
                   <span className="mr-4 text-2xl">📍</span>
                   <div>
-                    <h4 className="text-lg font-semibold text-cbm-navy">Address</h4>
+                    <h4 className="text-lg font-semibold text-cbm-navy">Rajkot Office</h4>
                     <address className="not-italic text-gray-700">
-                      123 Construction Avenue
+                      905-906-907, A-Wing, 9th Floor, RK Iconic, Sheetal Park,
                       <br />
-                      Building Heights, Suite 456
+                      Rajkot, Gujarat 360006
+                    </address>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <span className="mr-4 text-2xl">📍</span>
+                  <div>
+                    <h4 className="text-lg font-semibold text-cbm-navy">Morbi Office</h4>
+                    <address className="not-italic text-gray-700">
+                      201, Ishan Business Center (IBC), 8A National Highway,
                       <br />
-                      Mumbai, India 400001
+                      Nr. Omkar Petroleum, Morbi - 363642
                     </address>
                   </div>
                 </div>
@@ -78,8 +86,8 @@ const ContactSection = () => {
                   <span className="mr-4 text-2xl">✉️</span>
                   <div>
                     <h4 className="text-lg font-semibold text-cbm-navy">Email</h4>
-                    <a href="mailto:info@cbmgroup.in" className="text-cbm-blue hover:underline">
-                      info@cbmgroup.in
+                    <a href="mailto:info@prikriti.co.in" className="text-cbm-blue hover:underline">
+                      info@prikriti.co.in
                     </a>
                   </div>
                 </div>
