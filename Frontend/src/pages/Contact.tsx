@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <div
@@ -45,30 +45,27 @@ const Contact = () => {
           <div className="grid gap-8 md:grid-cols-2">
             <div className="rounded-lg overflow-hidden shadow-lg">
               <h3 className="mb-4 text-xl font-bold text-cbm-navy">Rajkot Office</h3>
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.123456789!2d70.8023456!3d22.3034567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1234567890%3A0xabcdef1234567890!2sRK%20Iconic%2C%20Sheetal%20Park%2C%20Rajkot%2C%20Gujarat%20360006!5e0!3m2!1sen!2sin!4v1682531044161!5m2!1sen!2sin" 
-                width="100%" 
-                height="300" 
-                style={{ border: 0 }} 
-                allowFullScreen={true} 
-                loading="lazy" 
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30181.03834167366!2d70.74709624216666!3d22.318504755422104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c9ebb58c4579%3A0x78530cb0edf1cfb0!2sRK%20Iconic!5e1!3m2!1sen!2sin!4v1745901414669!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Rajkot Office Location"
-              ></iframe>
+                title="Rajkot Office Location"></iframe>
             </div>
 
             <div className="rounded-lg overflow-hidden shadow-lg">
               <h3 className="mb-4 text-xl font-bold text-cbm-navy">Morbi Office</h3>
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.987654321!2d70.9876543!3d22.5678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9876543210%3A0xabcdef9876543210!2sIshan%20Business%20Center%2C%20Morbi%2C%20Gujarat%20363642!5e0!3m2!1sen!2sin!4v1682531044161!5m2!1sen!2sin" 
-                width="100%" 
-                height="300" 
-                style={{ border: 0 }} 
-                allowFullScreen={true} 
-                loading="lazy" 
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30072.722269403028!2d70.8503491929556!3d22.814198540431914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598d77537d5241%3A0x885fbb57aefb9a11!2sIshan%20business%20centre!5e1!3m2!1sen!2sin!4v1745901524405!5m2!1sen!2sin" width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Morbi Office Location"
-              ></iframe>
+                title="Morbi Office Location"></iframe>
             </div>
           </div>
         </div>

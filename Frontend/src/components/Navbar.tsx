@@ -83,19 +83,18 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-xl">P</span>
-              </div>
-              <h1 className={cn(
-                "text-2xl font-bold transition-colors duration-300",
-                scrolled ? "text-blue-700" : "text-white"
-              )}>
-                Prikriti
-              </h1>
-            </Link>
-          </div>
+            <div className={`flex items-center bg-white/90 rounded-lg p-2`}>
+              <Link to="/" className="flex items-center">
+                <img 
+                  src="/images/logo.png" 
+                  alt="Prikriti Group Logo" 
+                  className={cn(
+                    "h-10 w-auto transition-all duration-300",
+                    scrolled ? "brightness-100" : "brightness-[1.15]"
+                  )}
+                />
+              </Link>
+            </div>
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden">
