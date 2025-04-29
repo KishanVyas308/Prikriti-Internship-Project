@@ -19,7 +19,7 @@ const About = () => {
         >
           <div className="container mx-auto flex h-full items-center px-4">
             <div className="max-w-3xl">
-              <h1 className="text-4xl font-bold text-white md:text-5xl">About CBM Group</h1>
+              <h1 className="text-4xl font-bold text-white md:text-5xl">About Prikriti Group</h1>
               <p className="mt-4 text-xl text-white/90">Our journey, values, and commitment to excellence</p>
             </div>
           </div>
